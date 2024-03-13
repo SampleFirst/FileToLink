@@ -12,7 +12,7 @@ from pyrogram.types import ReplyKeyboardMarkup
 logger = logging.getLogger(__name__)
 db = Database(Var.DATABASE_URL, Var.name)
 
-if Var.MY_PASS:
+if MY_PASS:
     buttonz = ReplyKeyboardMarkup(
         [
             ["start⚡️", "help📚", "login🔑", "DC"],
