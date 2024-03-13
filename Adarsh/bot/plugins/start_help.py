@@ -127,7 +127,7 @@ async def help_handler(bot, message):
         )
     )
     
-@StreamBot.on_message((filters.command("logs"))
+@StreamBot.on_message(filters.command("logs"))
 async def logs(bot, message):
     """Send log file"""
     try:
